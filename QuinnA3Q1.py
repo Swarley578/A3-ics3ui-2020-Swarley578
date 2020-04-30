@@ -3,7 +3,7 @@
 # import panda to do the math
 import pandas as pd
 # code to find and read your csv file
-df = pd.read_csv (r'C:\Users\Quinn\PycharmProjects\ICSCSV.csv')
+df = pd.read_csv (r'C:\Users\Quinn\PycharmProjects\ICS.csv')
 
 # code to create the averages of each column
 # this code finds all the numbers under each column and finds the average
@@ -20,26 +20,26 @@ mean10 = df['Tests/1M pop'].mean()
 
 # code to find max and min value for each column
 # this code finds all the numbers under each column and finds the maximum and minimum values
-max1 = df['Total Cases' 'Country'].max()
-min1 = df['Total Cases' 'Country'].min()
-max2 = df['Total Deaths' 'Country'].max()
-min2 = df['Total Deaths' 'Country'].min()
-max3 = df['Total Deaths' 'Country'].max()
-min3 = df['Total Deaths' 'Country'].min()
-max4 = df['Total Recovered' 'Country'].max()
-min4 = df['Total Recovered' 'Country'].min()
-max5 = df['Active Cases' 'Country'].max()
-min5 = df['Active Cases' 'Country'].min()
-max6 = df['Serious, Critical' 'Country'].max()
-min6 = df['Serious, Critical' 'Country'].min()
-max7 = df['Tot Cases/1M pop' 'Country'].max()
-min7 = df['Tot Cases/1M pop' 'Country'].min()
-max8 = df['Deaths/1M pop' 'Country'].max()
-min8 = df['Deaths/1M pop' 'Country'].min()
-max9 = df['Total Tests' 'Country'].max()
-min9 = df['Total Tests' 'Country'].min()
-max10 = df['Tests/1M pop' 'Country'].max()
-min10 = df['Tests/1M pop' 'Country'].min()
+max1 = df['Total Cases'].max()
+min1 = df['Total Cases'].min()
+max2 = df['Total Deaths'].max()
+min2 = df['Total Deaths'].min()
+max3 = df['Total Deaths'].max()
+min3 = df['Total Deaths'].min()
+max4 = df['Total Recovered'].max()
+min4 = df['Total Recovered'].min()
+max5 = df['Active Cases'].max()
+min5 = df['Active Cases'].min()
+max6 = df['Serious, Critical'].max()
+min6 = df['Serious, Critical'].min()
+max7 = df['Tot Cases/1M pop'].max()
+min7 = df['Tot Cases/1M pop'].min()
+max8 = df['Deaths/1M pop'].max()
+min8 = df['Deaths/1M pop'].min()
+max9 = df['Total Tests'].max()
+min9 = df['Total Tests'].min()
+max10 = df['Tests/1M pop'].max()
+min10 = df['Tests/1M pop'].min()
 
 # code to print average values
 # the + str adds the math for the averages to print the value of the averages
